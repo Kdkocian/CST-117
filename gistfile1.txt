@@ -1,0 +1,51 @@
+// Kyle David Kocian Created on 8/23/2018
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)  //first button adds textbox plus little message and displays it
+        {
+            MessageBox.Show(textBox1 + " is Awesome");
+        }
+
+        private void UserName_Click(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)       //second button adds textbox plus little message and displays it
+        {
+            MessageBox.Show(textBox1 + " you got this");
+        }
+
+        private void button3_Click(object sender, EventArgs e)      //third button adds text box plus little message and displays it
+        {
+            MessageBox.Show(textBox1 + " It is not going to be easy though");
+        }
+    }
+}
